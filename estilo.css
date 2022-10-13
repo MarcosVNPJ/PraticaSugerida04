@@ -1,0 +1,51 @@
+:root {
+--russian-violet: #2f1847ff;
+--english-violet: #624763ff;
+--dogwood-rose: #c62e65ff;
+--cotton-candy: #f9b3d1ff;
+--phlox: #d63af9ff;
+}
+
+body {
+    background-color: var(--english-violet);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(cubes.png);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--phlox);
+}
+
+p {
+    color: var(--cotton-candy);
+}
+
+a {
+    color: var(--russian-violet);
+    text-decoration: none;
+}
+
+header footer {
+    background-color: var(--dogwood-rose);
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    border: 3px solid rgb(0, 57, 95);
+    border-style: solid;
+    
+}
+
+footer {
+    text-align: center;
+    border: 3px solid rgb(0, 57, 95);
+    border-style: solid;
+}
